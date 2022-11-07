@@ -7,9 +7,30 @@
 	"item": [
 		{
 			"name": "New Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Body matches string\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"百度\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "www.baidu.com",
+					"host": [
+						"www",
+						"baidu",
+						"com"
+					]
+				}
 			},
 			"response": []
 		}
