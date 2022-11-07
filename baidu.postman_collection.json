@@ -1,0 +1,17 @@
+{
+	"info": {
+		"_postman_id": "eb9e3840-684a-4e95-b63c-06fbdb09ebde",
+		"name": "baidu",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
